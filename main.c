@@ -8,6 +8,8 @@
 
 #ifdef OPT
 #define OUT_FILE "opt.txt"
+#elif HASH
+#define OUT_FILE "hash.txt"
 #else
 #define OUT_FILE "orig.txt"
 #endif
